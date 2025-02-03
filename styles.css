@@ -1,0 +1,113 @@
+/* Dark Theme */
+.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    transition: background-color 0.5s ease, padding 0.5s ease;
+  }
+  
+  .navbar.scrolled {
+    background-color: #333 !important;
+    padding: 10px 0;
+  }
+  
+  /* Home Section */
+  #home {
+    background: linear-gradient(135deg, #1e1e1e, #121212);
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* About Section */
+  #about {
+    padding: 100px 0;
+  }
+  
+  #about img {
+    transition: transform 0.5s ease;
+  }
+  
+  #about img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 100px 0;
+  }
+  
+  .skill-card {
+    background-color: #1e1e1e;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    color: white;
+    transition: 0.6s;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 100px 0;
+  }
+  
+  .project-card {
+    background-color: #1e1e1e;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transition: 0.6s;
+    color: white;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 100px 0;
+  }
+  
+  #contact input, #contact textarea {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    color: #ffffff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  #contact input::placeholder{
+    color: white;
+  }
+  #contact textarea::placeholder{
+    color: white;
+  }
+  #contact input:focus, #contact textarea:focus {
+    background-color: #333;
+    color: white;
+    border-color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1e1e1e;
+    padding: 20px 0;
+  }
+  
+  .social-links a {
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #007bff !important;
+  }
